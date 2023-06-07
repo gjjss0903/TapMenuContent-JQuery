@@ -1,0 +1,141 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('http://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.6em;
+  background-color: #f4f4f4;
+  font-weight: 300;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+section {
+  width: 800px;
+}
+
+/* heading */
+
+.heading {
+
+}
+.heading h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.heading h1 b {
+  color: red;
+}
+.heading input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  border-bottom: 2px solid #ddd;
+  background: #fff url(../images/search-icon.png) no-repeat center left 5px;
+  background-size: 23px;
+  padding-left: 30px;
+}
+
+.heading input[type=text]::placeholder {
+  transition: 0.3s;
+  font-style: italic;
+}
+
+.heading input[type=text]:focus::placeholder {
+  color: transparent;
+}
+
+/* Tap-inner */
+
+.tab-inner {
+  margin-top: 30px;
+}
+.btn {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.btn li {
+  float: left;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #eee;
+  border-right: 1px solid #ddd;
+  padding: 5px;
+  border-top: 2px solid transparent;
+}
+
+.btn li:hover,
+.btn li.active {
+  background-color: #fff;
+  border-top: 2px solid red;
+}
+
+.btn li:last-child {
+  width: 170px;
+  border-right: none;
+}
+
+.tabs {
+
+}
+.tabs div {
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.tabs div.active {
+  display: block;
+}
+
+/* Tap Content */
+
+.tabs div h2 {
+  text-align: center;
+}
+
+.tabs div img {
+  float: left;
+  margin-right: 30px;
+}
+.tabs div p {
+  overflow: hidden;
+}
+
+@media screen and (max-width:400px) {
+  .tabs div.active {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading h1 {
+    font-size: 20px;
+  }
+  .btn li {
+    width: 51px;
+    font-size: 10px;
+    padding: 5px;
+  }
+  .btn li:last-child {
+    width: 100px;
+  }
+  section {
+    padding: 10px;
+  }
+
+  body {
+    height: 100%;
+  }
+}

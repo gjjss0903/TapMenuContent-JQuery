@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>탭 메뉴 콘텐츠 - JQuery</title>
+  <link rel="stylesheet" href="./index_files/index.css">
+  <script src="./index_files/jquery-3.6.4.min.js.다운로드"></script>
+  <script src="./index_files/index.js.다운로드"></script>
+<style>.osSwitch{position:relative;display:inline-block;width:34px;height:15.3px}.osSwitch input{opacity:0;width:0;height:0}.osSlider{position:absolute;top:0;left:0;right:0;bottom:0;border-radius:34px;background-color:#93a0b5;transition:0.4s}.osSlider:before{position:absolute;content:'';height:13px;width:13px;left:2px;bottom:1px;border-radius:50%;background-color:white;transition:0.4s}input:checked+.sliderGreen{background-color:#04d289}input:checked+.sliderRed{background-color:#ff3b30}input:not(:checked)+.defaultGreen{background-color:#04d289}input:checked+.osSlider:before{transform:translateX(17px)}
+</style><style>
+    @font-face {
+      font-family: 'SegoeUI_online_security'; 
+      src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/segoe-ui.woff);
+    }
+
+    @font-face {
+      font-family: 'SegoeUI_bold_online_security'; 
+      src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/segoe-ui-bold.woff);
+    }
+</style></head>
+
+<body>
+
+<section>
+  <div class="heading">
+    <h1><b>코딩웍스</b>, 프론트엔드 퍼블리셔 취업을 위한 실전 퍼블리싱 강좌</h1>
+    <input type="text" placeholder="What are you looking for?">
+  </div>
+
+  <div class="tab-inner">
+    <ul class="btn">
+      <li data-alt="tab1" class="active">HTML5</li>
+      <li data-alt="tab2">CSS3</li>
+      <li data-alt="tab3">JQUERY</li>
+      <li data-alt="tab4">JAVASCRIPT</li>
+      <li data-alt="tab5">CSS FRAMEWORKS</li>
+    </ul>
+    <div class="tabs">
+      <div id="tab1" class="active">
+        <h2>HTML5</h2>
+        <img src="./index_files/platform-logo-01.png">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta illum obcaecati sit dignissimos facilis omnis praesentium et illo. Laboriosam ipsa nobis iusto dicta corporis quibusdam cumque maiores laudantium facere voluptatem nesciunt repudiandae modi, incidunt nulla. Libero deserunt suscipit nam consectetur impedit quibusdam cupiditate accusamus necessitatibus harum id, dicta esse fuga explicabo porro, expedita non magni ipsam culpa possimus praesentium corporis nostrum iste? Omnis placeat quasi culpa rerum deleniti dolor, blanditiis amet, corrupti laboriosam excepturi fuga officia, iste ipsa? Obcaecati, debitis exercitationem! Ducimus cupiditate aliquid vel molestiae ipsum, adipisci amet voluptate corrupti sint earum voluptatibus maxime ut dicta nemo odio blanditiis.
+        </p>
+      </div>
+      <div id="tab2">
+        <h2>CSS3</h2>
+        <img src="./index_files/platform-logo-02.png">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta illum obcaecati sit dignissimos facilis omnis praesentium et illo. Laboriosam ipsa nobis iusto dicta corporis quibusdam cumque maiores laudantium facere voluptatem nesciunt repudiandae modi, incidunt nulla. Libero deserunt suscipit nam consectetur impedit quibusdam cupiditate accusamus necessitatibus harum id, dicta esse fuga explicabo porro, expedita non magni ipsam culpa possimus praesentium corporis nostrum iste? Omnis placeat quasi culpa rerum deleniti dolor, blanditiis amet, corrupti laboriosam excepturi fuga officia, iste ipsa? Obcaecati, debitis exercitationem! Ducimus cupiditate aliquid vel molestiae ipsum, adipisci amet voluptate corrupti sint earum voluptatibus maxime ut dicta nemo odio blanditiis.
+        </p>
+      </div>
+      <div id="tab3">
+        <h2>JQUERY</h2>
+        <img src="./index_files/platform-logo-03.png">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta illum obcaecati sit dignissimos facilis omnis praesentium et illo. Laboriosam ipsa nobis iusto dicta corporis quibusdam cumque maiores laudantium facere voluptatem nesciunt repudiandae modi, incidunt nulla. Libero deserunt suscipit nam consectetur impedit quibusdam cupiditate accusamus necessitatibus harum id, dicta esse fuga explicabo porro, expedita non magni ipsam culpa possimus praesentium corporis nostrum iste? Omnis placeat quasi culpa rerum deleniti dolor, blanditiis amet, corrupti laboriosam excepturi fuga officia, iste ipsa? Obcaecati, debitis exercitationem! Ducimus cupiditate aliquid vel molestiae ipsum, adipisci amet voluptate corrupti sint earum voluptatibus maxime ut dicta nemo odio blanditiis.
+        </p>
+      </div>
+      <div id="tab4">
+        <h2>JAVASCRIPT</h2>
+        <img src="./index_files/platform-logo-04.png">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta illum obcaecati sit dignissimos facilis omnis praesentium et illo. Laboriosam ipsa nobis iusto dicta corporis quibusdam cumque maiores laudantium facere voluptatem nesciunt repudiandae modi, incidunt nulla. Libero deserunt suscipit nam consectetur impedit quibusdam cupiditate accusamus necessitatibus harum id, dicta esse fuga explicabo porro, expedita non magni ipsam culpa possimus praesentium corporis nostrum iste? Omnis placeat quasi culpa rerum deleniti dolor, blanditiis amet, corrupti laboriosam excepturi fuga officia, iste ipsa? Obcaecati, debitis exercitationem! Ducimus cupiditate aliquid vel molestiae ipsum, adipisci amet voluptate corrupti sint earum voluptatibus maxime ut dicta nemo odio blanditiis.
+        </p>
+      </div>
+      <div id="tab5">
+        <h2>CSS FRAMEWORKS</h2>
+        <img src="./index_files/platform-logo-05.png">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta illum obcaecati sit dignissimos facilis omnis praesentium et illo. Laboriosam ipsa nobis iusto dicta corporis quibusdam cumque maiores laudantium facere voluptatem nesciunt repudiandae modi, incidunt nulla. Libero deserunt suscipit nam consectetur impedit quibusdam cupiditate accusamus necessitatibus harum id, dicta esse fuga explicabo porro, expedita non magni ipsam culpa possimus praesentium corporis nostrum iste? Omnis placeat quasi culpa rerum deleniti dolor, blanditiis amet, corrupti laboriosam excepturi fuga officia, iste ipsa? Obcaecati, debitis exercitationem! Ducimus cupiditate aliquid vel molestiae ipsum, adipisci amet voluptate corrupti sint earum voluptatibus maxime ut dicta nemo odio blanditiis.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
